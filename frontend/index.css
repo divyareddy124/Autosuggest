@@ -14,3 +14,20 @@ border: 3px solid black;
 #home-intro:hover{
     background-color: grey;
 }
+#navbar{
+    text-align: center;
+   background-color: rgb(65, 65, 243);
+   border: 1px solid #6c5ce7;
+   color:white;
+   margin-bottom: 30px;
+}
+#navbar a{
+    margin: 0px 2px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    transition: opacity 0.2s;
+}
+nav a:hover{
+    opacity: 0.8;
+}
