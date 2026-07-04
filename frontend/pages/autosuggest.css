@@ -106,26 +106,35 @@ h1 .purple {
     width: 100%;
     max-width: 430px;
     margin: 14px auto 0;
-    background: #fafafa;
+    background: #ffffff;
     border: 1px solid #d2d2d2;
-    border-radius: 16px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    border-top: none;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
     overflow: hidden;
+    display: none;
 }
-
 
 .suggestion-item{
     padding: 14px 18px;
     border-bottom: 1px solid #e6e6e6;
-    color: #333;
+    color: #1f2937;
+    background: #fff;
     cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease;
+    font-size: 15px;
+    text-align: left;
 }
 
 .suggestion-item:last-child{
     border-bottom: none;
-
 }
 
 .suggestion-item:hover{
-    background: #f0f4ff;
+    background: #eff6ff;
+    color: #111827;
+}
+
+.suggestion-item:active{
+    background: #dbeafe;
 }
